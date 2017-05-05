@@ -13,6 +13,17 @@
 		7486798B1EBAE3F0008D6D96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 748679891EBAE3F0008D6D96 /* LaunchScreen.storyboard */; };
 		748679961EBAE3F0008D6D96 /* DouYuTvTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748679951EBAE3F0008D6D96 /* DouYuTvTests.swift */; };
 		748679A11EBAE3F0008D6D96 /* DouYuTvUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748679A01EBAE3F0008D6D96 /* DouYuTvUITests.swift */; };
+		748679B91EBAECCA008D6D96 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 748679B81EBAECCA008D6D96 /* Home.storyboard */; };
+		748679BC1EBAED6C008D6D96 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 748679BA1EBAED6C008D6D96 /* Live.storyboard */; };
+		748679BE1EBAEDAE008D6D96 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 748679BD1EBAEDAE008D6D96 /* Follow.storyboard */; };
+		748679C11EBAEDD9008D6D96 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 748679BF1EBAEDD9008D6D96 /* Profile.storyboard */; };
+		748679C51EBAEF94008D6D96 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748679C41EBAEF94008D6D96 /* MainViewController.swift */; };
+		748679CD1EBAF291008D6D96 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748679CC1EBAF291008D6D96 /* HomeViewController.swift */; };
+		748679D01EBAF99D008D6D96 /* UIBarBttonItem-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748679CF1EBAF99D008D6D96 /* UIBarBttonItem-Extension.swift */; };
+		748679D21EBAFFB7008D6D96 /* PageTittleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748679D11EBAFFB7008D6D96 /* PageTittleView.swift */; };
+		748679D41EBB01C4008D6D96 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748679D31EBB01C4008D6D96 /* Common.swift */; };
+		748679D81EBB109E008D6D96 /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748679D71EBB109E008D6D96 /* UIColor-Extension.swift */; };
+		748679DA1EBB3678008D6D96 /* PageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748679D91EBB3678008D6D96 /* PageContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +56,17 @@
 		7486799C1EBAE3F0008D6D96 /* DouYuTvUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DouYuTvUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		748679A01EBAE3F0008D6D96 /* DouYuTvUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DouYuTvUITests.swift; sourceTree = "<group>"; };
 		748679A21EBAE3F0008D6D96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		748679B81EBAECCA008D6D96 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Home.storyboard; path = ../Main/Home.storyboard; sourceTree = "<group>"; };
+		748679BB1EBAED6C008D6D96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouYuTv/Base.lproj/Live.storyboard; sourceTree = SOURCE_ROOT; };
+		748679BD1EBAEDAE008D6D96 /* Follow.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Follow.storyboard; path = ../Main/Follow.storyboard; sourceTree = "<group>"; };
+		748679C01EBAEDD9008D6D96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouYuTv/Base.lproj/Profile.storyboard; sourceTree = SOURCE_ROOT; };
+		748679C41EBAEF94008D6D96 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = ../../../MainViewController.swift; sourceTree = "<group>"; };
+		748679CC1EBAF291008D6D96 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		748679CF1EBAF99D008D6D96 /* UIBarBttonItem-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarBttonItem-Extension.swift"; sourceTree = "<group>"; };
+		748679D11EBAFFB7008D6D96 /* PageTittleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageTittleView.swift; sourceTree = "<group>"; };
+		748679D31EBB01C4008D6D96 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		748679D71EBB109E008D6D96 /* UIColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
+		748679D91EBB3678008D6D96 /* PageContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +119,6 @@
 			children = (
 				748679AE1EBAE57D008D6D96 /* Classes */,
 				748679801EBAE3F0008D6D96 /* AppDelegate.swift */,
-				748679841EBAE3F0008D6D96 /* Main.storyboard */,
 				748679871EBAE3F0008D6D96 /* Assets.xcassets */,
 				748679891EBAE3F0008D6D96 /* LaunchScreen.storyboard */,
 				7486798C1EBAE3F0008D6D96 /* Info.plist */,
@@ -139,6 +160,7 @@
 		748679AF1EBAE57D008D6D96 /* Flollow */ = {
 			isa = PBXGroup;
 			children = (
+				748679BD1EBAEDAE008D6D96 /* Follow.storyboard */,
 			);
 			path = Flollow;
 			sourceTree = "<group>";
@@ -146,6 +168,11 @@
 		748679B01EBAE57D008D6D96 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				748679C71EBAF1DD008D6D96 /* Model */,
+				748679C81EBAF1DD008D6D96 /* View */,
+				748679C61EBAF1DD008D6D96 /* Controller */,
+				748679B81EBAECCA008D6D96 /* Home.storyboard */,
+				748679CC1EBAF291008D6D96 /* HomeViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -153,6 +180,7 @@
 		748679B11EBAE57D008D6D96 /* Live */ = {
 			isa = PBXGroup;
 			children = (
+				748679BA1EBAED6C008D6D96 /* Live.storyboard */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -160,6 +188,11 @@
 		748679B21EBAE57D008D6D96 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				748679CA1EBAF25F008D6D96 /* Model */,
+				748679CB1EBAF264008D6D96 /* View */,
+				748679C91EBAF25A008D6D96 /* Controller */,
+				748679841EBAE3F0008D6D96 /* Main.storyboard */,
+				748679C41EBAEF94008D6D96 /* MainViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -167,6 +200,7 @@
 		748679B31EBAE57D008D6D96 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				748679BF1EBAEDD9008D6D96 /* Profile.storyboard */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -174,8 +208,63 @@
 		748679B41EBAE57D008D6D96 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				748679CE1EBAF96C008D6D96 /* Extension */,
+				748679D31EBB01C4008D6D96 /* Common.swift */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		748679C61EBAF1DD008D6D96 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		748679C71EBAF1DD008D6D96 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		748679C81EBAF1DD008D6D96 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		748679C91EBAF25A008D6D96 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		748679CA1EBAF25F008D6D96 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		748679CB1EBAF264008D6D96 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				748679D11EBAFFB7008D6D96 /* PageTittleView.swift */,
+				748679D91EBB3678008D6D96 /* PageContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		748679CE1EBAF96C008D6D96 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				748679CF1EBAF99D008D6D96 /* UIBarBttonItem-Extension.swift */,
+				748679D71EBB109E008D6D96 /* UIColor-Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,6 +380,10 @@
 				7486798B1EBAE3F0008D6D96 /* LaunchScreen.storyboard in Resources */,
 				748679881EBAE3F0008D6D96 /* Assets.xcassets in Resources */,
 				748679861EBAE3F0008D6D96 /* Main.storyboard in Resources */,
+				748679BC1EBAED6C008D6D96 /* Live.storyboard in Resources */,
+				748679B91EBAECCA008D6D96 /* Home.storyboard in Resources */,
+				748679C11EBAEDD9008D6D96 /* Profile.storyboard in Resources */,
+				748679BE1EBAEDAE008D6D96 /* Follow.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,7 +408,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				748679D01EBAF99D008D6D96 /* UIBarBttonItem-Extension.swift in Sources */,
+				748679DA1EBB3678008D6D96 /* PageContentView.swift in Sources */,
+				748679D81EBB109E008D6D96 /* UIColor-Extension.swift in Sources */,
+				748679D21EBAFFB7008D6D96 /* PageTittleView.swift in Sources */,
 				748679811EBAE3F0008D6D96 /* AppDelegate.swift in Sources */,
+				748679C51EBAEF94008D6D96 /* MainViewController.swift in Sources */,
+				748679D41EBB01C4008D6D96 /* Common.swift in Sources */,
+				748679CD1EBAF291008D6D96 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +457,7 @@
 				748679851EBAE3F0008D6D96 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		748679891EBAE3F0008D6D96 /* LaunchScreen.storyboard */ = {
@@ -365,6 +466,24 @@
 				7486798A1EBAE3F0008D6D96 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		748679BA1EBAED6C008D6D96 /* Live.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				748679BB1EBAED6C008D6D96 /* Base */,
+			);
+			name = Live.storyboard;
+			path = ../Main;
+			sourceTree = "<group>";
+		};
+		748679BF1EBAEDD9008D6D96 /* Profile.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				748679C01EBAEDD9008D6D96 /* Base */,
+			);
+			name = Profile.storyboard;
+			path = ../Main;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -465,7 +584,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-3";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				DEVELOPMENT_TEAM = X45EP4V929;
 				INFOPLIST_FILE = DouYuTv/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -473,6 +592,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.chen.DouYuTv;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -480,7 +600,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-3";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				DEVELOPMENT_TEAM = X45EP4V929;
 				INFOPLIST_FILE = DouYuTv/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -488,6 +608,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.chen.DouYuTv;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -568,6 +689,7 @@
 				748679A71EBAE3F0008D6D96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		748679A81EBAE3F0008D6D96 /* Build configuration list for PBXNativeTarget "DouYuTvTests" */ = {
 			isa = XCConfigurationList;
@@ -576,6 +698,7 @@
 				748679AA1EBAE3F0008D6D96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		748679AB1EBAE3F0008D6D96 /* Build configuration list for PBXNativeTarget "DouYuTvUITests" */ = {
 			isa = XCConfigurationList;
@@ -584,6 +707,7 @@
 				748679AD1EBAE3F0008D6D96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
